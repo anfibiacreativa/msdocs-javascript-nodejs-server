@@ -23,10 +23,10 @@
 - Install npm dependencies: `npm install`
 - Verify environment variables are set in `.env`
     - PORT=8080 - default port for Azure App Service
-    - MONGODB_URI=
+    - MONGODB_URI_CONNECTION_STRING=
     - MONGODB_URI_DATABASE_NAME=
     - MONGODB_URI_COLLECTION_NAME=
-    - AZURE_STORAGE_BLOB_CONNECTIONSTRING=
+    - AZURE_STORAGE_BLOB_CONNECTION_STRING=
     - AZURE_STORAGE_BLOB_CONTAINER_NAME=
 - Start the server: `npm start`
 - Access Web App at: `http://127.0.0.1:8080`
