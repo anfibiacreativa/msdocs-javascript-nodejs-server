@@ -9,8 +9,9 @@
         - [Create resource](https://ms.portal.azure.com/#create/Microsoft.AppServiceWebAppDatabaseV3) in Azure portal
         - Create database
         - Create collection
-        - Copy the following to the `.env` file:
-            - Connection string
+        - Make a copy of the `.env.example` file and rename it to `.env`
+        - Copy the following information to the `.env` file:
+            - Connection string. (This [link](https://docs.microsoft.com/en-us/azure/cosmos-db/mongodb/connect-mongodb-account#get-the-mongodb-connection-string-by-using-the-quick-start) explains you how to retrieve the connection string from the portal.)
             - Database name
             - Collection name
     - Azure Storage (for images)
@@ -18,18 +19,18 @@
             - Make sure `Blob public access` is enabled
         - Create container
         - Copy the following to the `.env` file:
-            - Connection string
+            - Connection string (This [link](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal) explains you how to retrieve the connection string, from the portal.)
             - Container name
 - Install npm dependencies: `npm install`
 - Verify environment variables are set in `.env`
-    - PORT=8080 - default port for Azure App Service
+    - PORT=8080 - default port for Azure App Service. If you need to change the port, you can do it in `.env` file, changing the value for PORT.
     - MONGODB_URI=
     - MONGODB_URI_DATABASE_NAME=
     - MONGODB_URI_COLLECTION_NAME=
     - AZURE_STORAGE_BLOB_CONNECTIONSTRING=
     - AZURE_STORAGE_BLOB_CONTAINER_NAME=
 - Start the server: `npm start`
-- Access Web App at: `http://127.0.0.1:8080`
+- Access Web App at: `http://127.0.0.1:8080`, or the assigned port
 
 ## Azure portal: Configure git to push to Azure App Service
 
