@@ -34,9 +34,10 @@
 
 ## Azure portal: Configure git to push to Azure App Service
 
-1. In the Azure portal, for your web app, select **Deployment -> Deployment Center**.
-1. On the **Settings** tab, copy the **Git Clone URI**. This will become your local git value for your remote named `Azure`.
-1. On the **Local Git/FTPS credentials** tab, copy the **Username** and **Password** under the application scope. These credentials allow you to deploy _only_ to this web app.  
+1. Create a Web App, using the Web App service via the Azure Portal or your preferred tool.
+2. In the Azure portal, for your web app, select **Deployment -> Deployment Center** from the side menu.
+3. On the **Settings** tab, copy the **Git Clone URI**. This will become your local git value for your remote named `Azure`.
+4. On the **Local Git/FTPS credentials** tab, copy the **Username** and **Password** under the application scope. These credentials allow you to deploy _only_ to this web app.  
 
 ## Azure CLI: Configure git to push to Azure App Service
 
