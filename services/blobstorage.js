@@ -5,7 +5,7 @@ import getStream from 'into-stream';
 import { generateThumbnailImage } from './imageprocessing.js';
 
 // Azure Storage Connection String
-const azureStorageConnectionUrl = process.env.AZURE_STORAGE_BLOB_CONNECTIONSTRING;
+const azureStorageConnectionUrl = process.env.AZURE_STORAGE_BLOB_CONNECTION_STRING;
 
 // Azure Storage Container name
 // all images are stored in same container

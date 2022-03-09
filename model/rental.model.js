@@ -1,7 +1,7 @@
 import { MongoClient, ObjectId } from 'mongodb';
 
 // MongoDB connection string
-const mongodbConnectionUrl = process.env.MONGODB_URI;
+const mongodbConnectionUrl = process.env.MONGODB_URI_CONNECTION_STRING;
 
 // MongoDB database name
 const mongodbDatabaseName = process.env.MONGODB_URI_DATABASE_NAME;
