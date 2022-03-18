@@ -1,0 +1,36 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.card {
+  width: 400px;
+}
+
+.stage {
+  width: 100%;
+}
+
+.carousel {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.carousel a {
+  color: #ffffff
+}
+
+.carousel-caption-custom {
+  position: absolute;
+  right: 5%;
+  top: 20px;
+  right: 5%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: right;
+}
